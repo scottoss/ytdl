@@ -142,7 +142,7 @@
             LastChildFill="False">
             <!--  Container preference  -->
             <StackPanel DockPanel.Dock="Left" Orientation="Horizontal">
-                <TextBlock VerticalAlignment="Center" Text="Container:" />
+                <TextBlock VerticalAlignment="Center" Text="Format:" />
                 <ComboBox
                     Width="150"
                     Margin="8,0,0,0"

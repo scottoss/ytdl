@@ -143,7 +143,7 @@
                 ItemsSource="{Binding Downloads}"
                 ScrollViewer.CanContentScroll="False"
                 VerticalScrollBarVisibility="Auto"
-                Visibility="{Binding Downloads.Count, Converter={x:Static s:BoolToVisibilityConverter.Instance}}">
+                Visibility="{Binding Downloads.Count, Converter={x:Static s:BoolToVisibilityConverter.Instance}}" SelectionChanged="DataGrid_SelectionChanged">
                 <DataGrid.ContextMenu>
                     <ContextMenu>
                         <MenuItem Command="{s:Action RemoveSuccessfulDownloads}" Header="Remove successful downloads" />
