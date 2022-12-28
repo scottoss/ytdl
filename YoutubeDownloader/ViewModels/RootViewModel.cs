@@ -83,7 +83,7 @@ Press LEARN MORE to find ways that you can help.".Trim(),
 
     public async void OnViewFullyLoaded()
     {
-        await ShowWarInUkraineMessageAsync();
+        //await ShowWarInUkraineMessageAsync();
         await CheckForUpdatesAsync();
     }
 
