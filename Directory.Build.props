@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net7.0-windows</TargetFramework>
-    <Version>2.0.1</Version>
+    <Version>2.0.2</Version>
     <Company>scottoss</Company>
     <Copyright>Copyright (C) Scott reinicke</Copyright>
     <LangVersion>preview</LangVersion>
